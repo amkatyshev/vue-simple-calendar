@@ -32,6 +32,8 @@
 </template>
 
 <script>
+import "../static/css/CalendarView.css";
+import "../static/css/CalendarViewHeader.css";
 import CalendarView from "./components/CalendarView.vue"
 import CalendarViewHeader from "./components/CalendarViewHeader.vue"
 
@@ -106,6 +108,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../static/css/CalendarView.css";
+@import "../static/css/CalendarViewHeader.css";
 @import "../static/css/gcal.css";
 //@import "../static/css/default.css";
 @import "../static/css/holidays-us.css";
